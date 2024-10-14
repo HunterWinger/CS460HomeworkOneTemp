@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj": {}
+  },
+  "projects": {
+    "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj",
+        "projectName": "HomeworkOneProject",
+        "projectPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj",
+        "packagesPath": "/home/hunter/.nuget/packages/",
+        "outputPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hunter/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj",
+        "projectName": "HomeworkOneTest",
+        "projectPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj",
+        "packagesPath": "/home/hunter/.nuget/packages/",
+        "outputPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hunter/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj": {
+                "projectPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

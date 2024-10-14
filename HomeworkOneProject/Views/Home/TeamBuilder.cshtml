@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "TeamBuilder";
+}
+@model HomeworkOneProject.Models.TeamInfoModel;
+
+
+<div class="row">
+    <div class="col-md-2">
+        <!-- Whitespace -->
+    </div>
+    <div class="col-md-8 mt-4 main-col">
+        <div class="row">
+            @for (int i = 0; i < @Model.teamList.Count; i++)
+            {
+                <div class="col-md-3 mb-4 mt-4 d-flex justify-content-center">
+                    <div class="card card-style" style="background-color: @Model.colorPalette[i]">
+                        <div class="card-body">
+                            <h4 class="card-title title-border" id="cardTitle-@(i)"> Team @(i + 1) </h4>
+                            <p class="card-text">
+                            <ul>
+                                    @for (int j = 0; j < @Model.teamList[i].Count; j++)
+                                    {
+                                    <li> @Model.teamList[i][j] </li>
+                                    }
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <button id="teamsBtn" class="btn btn-secondary my-4">Assign Team Names!</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <!-- Whitespace -->
+    </div>
+</div>
