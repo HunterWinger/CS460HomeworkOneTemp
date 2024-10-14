@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HomeworkOneTest
-build_property.ProjectDir = /home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/
+build_property.ProjectDir = C:\Users\winge\OneDrive\Documents\CS460HomeworkOneTemp\HomeworkOneTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

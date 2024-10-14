@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj": {}
+    "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneTest\\HomeworkOneTest.csproj": {}
   },
   "projects": {
-    "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj": {
+    "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneProject\\HomeworkOneProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj",
+        "projectUniqueName": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneProject\\HomeworkOneProject.csproj",
         "projectName": "HomeworkOneProject",
-        "projectPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj",
-        "packagesPath": "/home/hunter/.nuget/packages/",
-        "outputPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/obj/",
+        "projectPath": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneProject\\HomeworkOneProject.csproj",
+        "packagesPath": "C:\\Users\\winge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneProject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/hunter/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\winge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,34 +77,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj": {
+    "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneTest\\HomeworkOneTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj",
+        "projectUniqueName": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneTest\\HomeworkOneTest.csproj",
         "projectName": "HomeworkOneTest",
-        "projectPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/HomeworkOneTest.csproj",
-        "packagesPath": "/home/hunter/.nuget/packages/",
-        "outputPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneTest/obj/",
+        "projectPath": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneTest\\HomeworkOneTest.csproj",
+        "packagesPath": "C:\\Users\\winge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/hunter/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\winge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj": {
-                "projectPath": "/home/hunter/Documents/CS460/HomeworkOne/HomeworkOneProject/HomeworkOneProject.csproj"
+              "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneProject\\HomeworkOneProject.csproj": {
+                "projectPath": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneProject\\HomeworkOneProject.csproj"
               }
             }
           }
@@ -155,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

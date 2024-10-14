@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JadQABpoYtM=",
+  "dgSpecHash": "1aMFYQ0bkzU=",
   "success": true,
-  "projectFilePath": "/home/hunter/Documents/CS460/CS460HomeworkOneTemp/HomeworkOneProject/HomeworkOneProject.csproj",
+  "projectFilePath": "C:\\Users\\winge\\OneDrive\\Documents\\CS460HomeworkOneTemp\\HomeworkOneProject\\HomeworkOneProject.csproj",
   "expectedPackageFiles": [
-    "/home/hunter/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
-    "/home/hunter/.nuget/packages/moq/4.20.72/moq.4.20.72.nupkg.sha512",
-    "/home/hunter/.nuget/packages/nunit/4.2.2/nunit.4.2.2.nupkg.sha512",
-    "/home/hunter/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+    "C:\\Users\\winge\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\winge\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
+    "C:\\Users\\winge\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512",
+    "C:\\Users\\winge\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
